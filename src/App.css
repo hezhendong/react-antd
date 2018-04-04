@@ -1,0 +1,110 @@
+@import '~antd/dist/antd.css';
+
+.App{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+.header-nav-box{
+  width:100%;
+  height: 60px;
+  box-shadow: 5px 5px 5px #c5c5c5;
+  z-index:100;
+}
+.header-nav-detail{
+  width:880px;
+  height:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  float: left;
+}
+.header-nav-detail li{
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 12.5%;
+  height: 100%;
+}
+li.first-name{
+  font-size: 18px;
+  color: #57c5f7;
+  line-height: 60px;
+  text-align: center;
+}
+.header-nav-detail li a{
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  text-align: center;
+  line-height: 60px;
+}
+.header-nav-detail li a.activeRoute{
+  border-bottom: 2px solid #57c5f7;
+}
+.setting{
+  width: 210px;
+  height: 100%;
+  float: right;
+}
+.setting span.logout{
+  display: inline-block;
+  float: left;
+  width:70px;
+  text-align: center;
+  line-height: 60px;
+}
+.setting span.setting-icon{
+  display: inline-block;
+  float: left;
+  width:70px;
+  text-align: center;
+  line-height: 60px;
+}
+.setting span.user-name{
+  display: inline-block;
+  float: left;
+  width:70px;
+  text-align: center;
+  line-height: 40px;
+}
+.setting .user-name{
+  font-size: 16px;
+}
+span.user-name i{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius:30px;
+  background: #57c5f7; 
+  margin-top: 10px;
+}
+.setting-icon{
+  font-size: 30px;
+}
+.setting-nav{
+  position: fixed;
+  right: 0;
+  top:60px;
+  width:200px;
+  height: 100%;
+  background-color: #000;
+  display: none;
+}
+.setting-show{
+  display: block;
+}
+.setting-hide{
+  display: none;
+}
+
+.content{
+  position: absolute!important;
+  position: relative;
+  width:100%;
+  top: 60px;
+  bottom: 0px;
+  overflow: hidden;
+}

@@ -1,0 +1,25 @@
+.search-box{
+	overflow: hidden;
+	margin-bottom: 20px;
+	position: relative;
+}
+.search-condition {
+	float: left;
+}
+.search-condition span{
+	margin-right: 20px;
+}
+.search-condition span input{
+	width:100px;
+	height: 35px
+}
+
+.search-button {
+	float: left;
+	margin-left: 100px;
+	position:absolute;
+	right: 30px; 
+}
+.search-button button{
+	margin-right: 20px;
+}

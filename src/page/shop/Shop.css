@@ -1,0 +1,33 @@
+.release-activity-header{
+	width: 100%;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+.release-activity-box{
+	width:100%;
+	height: auto;
+}
+.release-activity-box ul{
+	width:100%;
+	height: auto;
+}
+.release-activity-box ul li{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+.release-activity-box ul li span{
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+	line-height:50px;
+}
+.release-activity-box ul li em{
+	display: inline-block;
+	width: 50%;
+	line-height: 50px;
+}
+.release-activity-box ul li em input{
+	width: 300px;
+}
